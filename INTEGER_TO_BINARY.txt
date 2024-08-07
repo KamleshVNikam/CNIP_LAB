@@ -1,0 +1,26 @@
+_____________PROGRAM_____________________
+
+
+num=input("Enter the decimal number: ");
+spl=num.split(".");
+final_ans=[]
+for string in spl:
+    num=int(string);
+    binary = f'{num:b}'
+    final_ans.append(binary);
+
+final_out=".".join(final_ans);
+print(final_out)
+
+
+
+
+
+____________OUTPUT__________________
+
+
+
+Enter the decimal number: 192.168.1.10
+11000000.10101000.1.1010
+
+=== Code Execution Successful ===
